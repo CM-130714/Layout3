@@ -1,0 +1,91 @@
+body{
+    background-color: #212121;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    height: 98vh;
+    width: 98vw;
+    display: flex;
+    gap: 10px;
+}
+
+.right{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.right-top{
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.right-bottom{
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+    border-radius: 20px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.large-middle{
+    height: 100%;
+    width: 30%;
+    background-color: blueviolet;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.left{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+}
+.top{
+    height: 33%;
+    width: 100%;
+    background-color: chartreuse;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.middle{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.first{
+    height: 100%;
+    width: 50%;
+    background-color: chocolate;
+    background-size: cover;
+    border-radius: 20px;
+}
+.second{
+    height: 100%;
+    width: 50%;
+    background-color: crimson;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+.bottom{
+    height: 33%;
+    width: 100%;
+    background-color: darkgreen;
+    border-radius: 20px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;   
+}
